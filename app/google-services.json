@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221609451593",
+    "firebase_url": "https://allowance-monitor.firebaseio.com",
+    "project_id": "allowance-monitor",
+    "storage_bucket": "allowance-monitor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221609451593:android:71823c122f7f57c7679f98",
+        "android_client_info": {
+          "package_name": "org.kaya.allowance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221609451593-8ffjlgq4346adjpvtfq8no9bcpqlat5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD97WrGPdt4d6IdQcHuX6cJbqLGdz64DHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221609451593-8ffjlgq4346adjpvtfq8no9bcpqlat5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

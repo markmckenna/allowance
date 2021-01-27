@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AllowanceViewFragment">
+
+    <fragment
+        android:id="@+id/AllowanceViewFragment"
+        android:name="org.kaya.allowance.AllowanceViewFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_allowance_view" >
+
+        <action
+            android:id="@+id/action_go_to_transaction_input"
+            app:destination="@id/AddTransactionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddTransactionFragment"
+        android:name="org.kaya.allowance.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_add_transaction" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/AllowanceViewFragment" />
+    </fragment>
+</navigation>
